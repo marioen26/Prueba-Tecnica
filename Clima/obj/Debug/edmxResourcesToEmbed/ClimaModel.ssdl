@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClimaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clima">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CLI_TEMPERATURA" Type="nchar" MaxLength="10" />
+    <Property Name="CLI_HUMEDAD" Type="nchar" MaxLength="10" />
+    <Property Name="CLI_VISIBILIDAD" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="ClimaModelStoreContainer">
+    <EntitySet Name="Clima" EntityType="Self.Clima" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

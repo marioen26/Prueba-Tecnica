@@ -1,0 +1,17 @@
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\WcfClima.dll.config
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\WcfClima.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\WcfClima.pdb
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\DAlClima.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\EntityFramework.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\EntityFramework.SqlServer.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\NuGet.Frameworks.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\DAlClima.pdb
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\DAlClima.dll.config
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\EntityFramework.xml
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\EntityFramework.SqlServer.xml
+C:\Users\mmendozar\source\repos\Clima\WcfClima\bin\NuGet.Frameworks.xml
+C:\Users\mmendozar\source\repos\Clima\WcfClima\obj\Debug\WcfClima.csproj.AssemblyReference.cache
+C:\Users\mmendozar\source\repos\Clima\WcfClima\obj\Debug\WcfClima.csproj.CoreCompileInputs.cache
+C:\Users\mmendozar\source\repos\Clima\WcfClima\obj\Debug\WcfClima.csproj.CopyComplete
+C:\Users\mmendozar\source\repos\Clima\WcfClima\obj\Debug\WcfClima.dll
+C:\Users\mmendozar\source\repos\Clima\WcfClima\obj\Debug\WcfClima.pdb

@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PruebaClima.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Content/styles.css" rel="stylesheet" />
+
+    <link href="Content/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="Content/assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+
+
+</head>
+<body class="sb-nav-fixed">
+
+    <form runat="server">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark" style="background-color: #179bd3">
+              <a class="navbar-brand" href="~/Default.aspx">
+                <img alt="Brand" src="/Content/assets/img/" width="130">
+              </a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" type="button">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+            </button>
+            <!-- Navbar-->
+            <ul class="navbar-nav ml-auto" >
+                <li class="nav-item">
+                   <a class="nav-link" href="login.aspx" >
+<%--                        <i class="fa fa-sign-out fa-fw"></i>Login--%>
+                        <i class="fa fa-sign-out fa-2x"></i> <h5>Login</h5>
+                   </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user fa-fw"></i> 
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Activity Log</a>
+                        <div class="dropdown-divider"></div>
+<%--                        <a class="dropdown-item" href="/login.html">Logout</a>--%>
+                        <a class="dropdown-item" href="~/Logout.aspx">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+       <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion" style="background-color: #179bd3">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Core</div>
+                            <a class="nav-link" runat="server" href="~/Default.aspx">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard
+                            </a>
+                            <div class="sb-sidenav-menu-heading" ></div>
+                                <a class="nav-link" id="Opcion1" runat="server" href="~/Paginas/CapturaDatos.aspx"> <h5>Cargar Datos</h5> </a>
+      
+                                <a class="nav-link" id="Opcion2" runat="server" href="~/Paginas/ConsultarClima.aspx"> <h5> Consultar Datos</h5> </a>
+                   
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        <h1 class="mt-4">Prueba Tecnica</h1>
+ 
+                             <div id="content">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; <%: DateTime.Now.Year %> </div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+
+     <!-- Core Scripts - Include with every page -->
+    <script src="Content/assets/plugins/jquery-1.10.2.js"></script>
+    <script src="Content/assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="Content/assets/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="Content/assets/plugins/pace/pace.js"></script>
+    <script src="Content/assets/scripts/siminta.js"></script>
+    <!-- Page-Level Plugin Scripts-->
+    <script src="Content/assets/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="Content/assets/plugins/morris/morris.js"></script>
+    <script src="Content/assets/scripts/dashboard-demo.js"></script>
+
+
+    </form>
+</body>
+</html>

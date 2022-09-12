@@ -1,0 +1,12 @@
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\DAlClima.dll.config
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\DAlClima.dll
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\DAlClima.pdb
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\EntityFramework.dll
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\EntityFramework.xml
+C:\Users\mmendozar\source\repos\Clima\DAlClima\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmendozar\source\repos\Clima\DAlClima\obj\Debug\DAlClima.csproj.AssemblyReference.cache
+C:\Users\mmendozar\source\repos\Clima\DAlClima\obj\Debug\DAlClima.csproj.CoreCompileInputs.cache
+C:\Users\mmendozar\source\repos\Clima\DAlClima\obj\Debug\DAlClima.csproj.CopyComplete
+C:\Users\mmendozar\source\repos\Clima\DAlClima\obj\Debug\DAlClima.dll
+C:\Users\mmendozar\source\repos\Clima\DAlClima\obj\Debug\DAlClima.pdb
